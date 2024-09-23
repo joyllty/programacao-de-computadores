@@ -4,8 +4,8 @@ float soma(float arr[], int t);
 
 float soma(float arr[], int t){
     //Caso base
-    if(t == 0){
-      return 0;
+    if(t == 1){
+      return arr[0];
     }
     return arr[t-1] + soma(arr, t-1);
 }  
