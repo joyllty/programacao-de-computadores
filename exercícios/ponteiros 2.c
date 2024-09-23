@@ -1,4 +1,4 @@
-/*  Crie um programa que contenha uma matriz de float contendo três linhas e três colunas. Imprima o endereço de cada posição dessa matriz.*/
+/*  10. Crie um programa que contenha uma matriz de float contendo três linhas e três colunas. Imprima o endereço de cada posição dessa matriz.*/
 #include <stdio.h>
 int main(void){
     float matriz[3][3], *pf;
