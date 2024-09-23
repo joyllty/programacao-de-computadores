@@ -2,7 +2,7 @@
 dois números e armazenar o resultado na variável A. Esta função não devera possuir retorno, mas devera modificar o valor do primeiro parâmetro. 
 Imprima os valores de A e B na função principal.*/
 #include <stdio.h>
-void soma();
+void soma(int *a, int b);
 
 void soma(int *a, int b){
     int temp;
