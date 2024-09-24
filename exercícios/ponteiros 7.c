@@ -1,4 +1,6 @@
-/*  Escreva um programa que faz o seguinte: Declare um array de inteiros com 5 elementos. Use um ponteiro para preencher o array com números inteiros lidos do usuário. Crie uma função que recebe um ponteiro para o array e um tamanho, e calcula a soma e a média dos elementos do array. A função deve retornar a soma e a média através de parâmetros de saída (ponteiros).*/
+/*  Escreva um programa que faz o seguinte: Declare um array de inteiros com 5 elementos. Use um ponteiro para preencher o array com números inteiros lidos 
+do usuário. Crie uma função que recebe um ponteiro para o array e um tamanho, e calcula a soma e a média dos elementos do array. A função deve retornar
+a soma e a média através de parâmetros de saída (ponteiros).*/
 #include <stdio.h>
 #include <stdlib.h>
 
