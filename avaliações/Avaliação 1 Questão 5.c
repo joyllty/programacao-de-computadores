@@ -35,6 +35,6 @@ int main(){
     }
  
     free(array);
-  s
+  
     return 0;
 }
