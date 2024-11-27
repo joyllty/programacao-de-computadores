@@ -1,0 +1,36 @@
+bubble sort
+é um método de ordenação que funciona comparando um elemento da lista com o seu sucessor, e trocando-os
+de posição se estiverem na ordem incorreta. na primeira iteração, o maior elemento vai ser colocado na última
+posição. a cada iteração, uma "régua" é colocada na posição n-1, e o j percorrerá as posições até ela como
+limite. o processo se repete até que esteja completamente ordenado.
+i -> é a regua que define o limite de até aonde o j estará percorrendo e trocando de lugar as posições
+pior e caso médio: O(n²)
+melhor caso(ja ordenada): O(n)
+
+
+selection sort
+é um metodo de ordenação onde o menor (ou maior) elemento é encontrado e colocado na posição correta,
+repetindo esse processo para todas as outras posições da lista, comparando os elementos entre si e os colocan
+do em suas devidas posições. Ele divide o array em duas partes: a parte ordenada e a não ordenada.
+melhor, pior e caso médio: O(n²)
+
+
+insertion sort
+é um metodo de ordenação que constrói a lista ordenada elemento por elemento, o array é dividido em uma parte 
+ordenada e outra não ordenada. A cada iteração, o primeiro elemento da parte não ordenada é comparado com os
+elementos da parte ordenada. Os elementos maiores que o elemento atual são deslocados para abrir espaço e o
+elemento atual é inserido na posição correta. 
+melhor caso(ja ordenada): O(n)
+pior e caso médio: O(n²)
+
+merge sort
+é um método de ordenação baseado no em Dividir para Conquistar. Ele divide a lista em sublistas menores até 
+que cada uma tenha apenas um elemento e, em seguida, combina essas sublistas de forma ordenada. melhor, pior
+e caso médio: O(n log n)
+
+quick sort
+é um método de ordenação também baseado em Dividir para Conquistar, que funciona escolhendo um elemento 
+como pivô e divindo o array em duas partes: elementos menores que o pivô à esquerda e maiores à direita. 
+Em seguida, o processo é repetido recursivamente nas sublistas, até que o array esteja totalmente ordenado.
+melhor e caso médio: O(n log n)
+pior caso: O(n²)
